@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF9F6"
+        android:padding="24dp">
+
+<TextView
+android:id="@+id/textTitulo"
+android:text="O Cronômetro"
+android:textSize="36sp"
+android:textStyle="bold"
+android:layout_marginBottom="40dp"
+android:textColor="#2E3A59"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+
+<Button
+android:id="@+id/btnStartApp"
+android:text="Start"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="16dp"
+android:backgroundTint="#FF6B6B"
+android:textColor="#FFFFFF" />
+        </LinearLayout>
